@@ -1,0 +1,22 @@
+1. Correctness
+    - I believe that there is no such thing as a single implementation
+    or hard-coded CSV parser that fits the criteria of being "correct".
+    Instead, what I believe to be the best possible emulation of a "correct"
+    CSV parser is a program that is highly modular, able to be customized and 
+    altered as the discretion of the user themselves. The parser should be 
+    allowing the user to input any specifications they might want to their
+    parsing logic when inputing their CSV file such as data types, columns,
+    headers, etc.
+
+2. Random, On-Demand Generation
+    - I think this function would greatly increase the aptitude and the overall
+    effectiveness of the tests by simply feeding in randomly generated CSV data
+    without implied bias as a programmer. It would be great at testing parsing
+    logic to possible broken or missing data in a CSV file.
+
+3. Overall experience, Bugs encountered and resolved
+    - A bug that I am still currently facing and did not have the time to fix
+    prior to the code freeze was the use of types. Declared/inferred types in
+    TypeScript is still something that I'm struggling with and will probably
+    need to review lectures and look at more documentation online to fully
+    understand why my current implementation is incorrect.
