@@ -14,8 +14,10 @@ async function main() {
   // another iterates over the indexes only.
   for(const record of results)
     console.log(record)
+    console.log("hello!")
   for(const record in results)
     console.log(record)
+    console.log("hello again!")
 }
 
 main();
